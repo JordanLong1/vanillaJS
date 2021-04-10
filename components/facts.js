@@ -30,7 +30,5 @@ class Facts {
     factsText.textContent = this.text;
     factsDiv.appendChild(factsText);
     grabRoot.appendChild(factsDiv);
-
-    console.log(this);
   }
 }
